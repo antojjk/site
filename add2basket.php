@@ -1,7 +1,4 @@
 ﻿<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php"); 
-
-
-
 if (CModule::IncludeModule("sale") && CModule::IncludeModule("catalog")) { 
 
 if (isset($_POST['id']) && isset($_POST['QUANTITY'])) { 
@@ -23,8 +20,7 @@ $APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "bottom_basket
 false 
 ); 
 
-
-
+бла бла бла
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php"); 
 ?>

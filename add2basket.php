@@ -12,7 +12,7 @@ Add2BasketByProductID( $PRODUCT_ID, $QUANTITY );
 else { echo "Нет параметров"; } 
 } 
 else { echo "Не подключены модули"; } 
- 
+ asdasd
 
 
 

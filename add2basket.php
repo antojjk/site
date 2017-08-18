@@ -20,7 +20,5 @@ $APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "bottom_basket
 false 
 ); 
 
-бла бла бла
-
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php"); 
 ?>

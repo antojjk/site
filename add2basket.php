@@ -12,9 +12,7 @@ Add2BasketByProductID( $PRODUCT_ID, $QUANTITY );
 else { echo "Нет параметров"; } 
 } 
 else { echo "Не подключены модули"; } 
- asdasd
-
-
+ 
 
 $APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "bottom_basket", array( 
 "PATH_TO_BASKET" => "/personal/basket.php", 
